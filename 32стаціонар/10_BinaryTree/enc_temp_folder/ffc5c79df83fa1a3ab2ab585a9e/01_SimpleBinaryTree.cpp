@@ -1,5 +1,4 @@
 #include<iostream>
-#include<string>
 
 using namespace std;
 
@@ -46,11 +45,4 @@ void main()
 	bt.AddToTree(root, 12);
 	bt.AddToTree(root, 10);
 	bt.Show(root);
-
-	string str1 = "hello";
-	string str2;
-	str2 = "bye";
-	str1 += str1;
-	cout << (str1 > str2);
-	str1 = str2;
 }
