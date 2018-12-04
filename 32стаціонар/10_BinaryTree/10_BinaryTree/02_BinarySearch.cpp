@@ -38,6 +38,27 @@
 //		delete root;
 //		root = nullptr;
 //	}
+//	void Search (Node* root, int val)
+//	{
+//		if (root == nullptr)
+//		{
+//			cout << "No such value\n";
+//			return;
+//		}
+//		if (root->val == val)
+//		{
+//			cout << "I find you!!!!\n";
+//			return;
+//		}
+//		if (val < root->val)
+//		{
+//			Search(root->left, val);
+//		}
+//		if (val > root->val)
+//		{
+//			Search(root->right, val);
+//		}
+//	}
 //};
 //
 //void main()
@@ -54,6 +75,12 @@
 //	bt.AddToTree(root, 10);
 //	bt.Show(root);
 //
+//	bt.Search(root, 20);
+//	bt.Search(root, 90);
+//	bt.Search(root, 10);
+//	bt.Search(root, 13);
+//
+//
 //	bt.Delete(root);
 //
 //
@@ -62,6 +89,6 @@
 //	string str2;
 //	str2 = "hello";
 //	//str1 += str1;
-//	cout << boolalpha <<"\n"<< (str1 == str2);
+//	cout << boolalpha << "\n" << (str1 == str2);
 //	str1 = str2;
 //}
