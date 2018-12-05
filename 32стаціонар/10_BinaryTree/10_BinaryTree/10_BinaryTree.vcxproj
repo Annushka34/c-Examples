@@ -126,6 +126,13 @@
     <ClCompile Include="05_DeleteByKey.cpp" />
     <ClCompile Include="06_WithParent.cpp" />
     <ClCompile Include="07_STL_map_set.cpp" />
+    <ClCompile Include="08_SaveToFile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Menu.txt" />
+    <Text Include="Menu2.txt" />
+    <Text Include="Menu3.txt" />
+    <Text Include="myFile.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

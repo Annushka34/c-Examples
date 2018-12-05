@@ -36,5 +36,22 @@
     <ClCompile Include="07_STL_map_set.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="08_SaveToFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="myFile.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Menu.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Menu2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Menu3.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
