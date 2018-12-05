@@ -30,5 +30,11 @@
     <ClCompile Include="05_DeleteByKey.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="06_WithParent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="07_STL_map_set.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

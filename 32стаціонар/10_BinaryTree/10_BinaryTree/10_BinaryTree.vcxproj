@@ -124,6 +124,8 @@
     <ClCompile Include="03_KeyValue.cpp" />
     <ClCompile Include="04_Template.cpp" />
     <ClCompile Include="05_DeleteByKey.cpp" />
+    <ClCompile Include="06_WithParent.cpp" />
+    <ClCompile Include="07_STL_map_set.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
