@@ -2,7 +2,7 @@
 #include"Header.h"
 #include"Person.h"
 
-class Student : private  Person // наслідник
+class Student : public  Person // наслідник
 {
 	double scholarship;
 public:

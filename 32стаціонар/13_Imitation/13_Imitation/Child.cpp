@@ -3,8 +3,9 @@
 	{
 		toyName = toy;
 	}
-	void Child::ShowToy()
+	void Child::Show()
 	{
-		TestProtected();
+		Person::Show();
+		//TestProtected();
 		cout << "toy: " << toyName << endl;
 	}

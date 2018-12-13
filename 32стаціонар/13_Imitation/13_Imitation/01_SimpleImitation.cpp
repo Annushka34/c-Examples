@@ -14,6 +14,29 @@ void SetColor(int col)
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), col);
 }
 
+void ShowPerson(Person *p, int type)
+{
+	switch (type)
+	{
+	case 1:
+	{
+		((Child*)p)->Show();
+		break;
+	}
+	case 2:
+	{
+		((Employee*)p)->Show();
+		break;
+	}
+	case 3:
+	{
+		p->Show();
+		break;
+	}
+	}
+	//delete p;
+}
+
 void main()
 {
 	//SetColor(10);
@@ -35,7 +58,18 @@ void main()
 	//getline(cin, str);
 
 
-	Child ch;
-	ch.SetToy("boll");
-	ch.ShowToy();
+	//Child ch;
+	//ch.SetToy("boll");
+	//ch.Show();
+
+
+	//Child* chPtr;
+	//chPtr = new Child();
+	//delete chPtr;
+	//chPtr = new Child();
+	Person* p12 = new Child();
+	((Child*)p12)->Show();
+	ShowPerson(p12, 1);
+	ShowPerson(new Employee(), 2);
+	ShowPerson(new Student(), 3);
 }

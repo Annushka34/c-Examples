@@ -2,11 +2,11 @@
 #include"Header.h"
 #include"Person.h"
 
-class Child : protected Person
+class Child : public Person
 {
 private:
 	string toyName;
 public:
 	void SetToy(string toy);
-	void ShowToy();
+	void Show();
 };
