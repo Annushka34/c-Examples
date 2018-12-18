@@ -21,5 +21,8 @@
     <ClCompile Include="02_interface.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="03_Fabrica.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

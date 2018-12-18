@@ -120,6 +120,7 @@
   <ItemGroup>
     <ClCompile Include="01_VirtualDestr.cpp" />
     <ClCompile Include="02_interface.cpp" />
+    <ClCompile Include="03_Fabrica.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
