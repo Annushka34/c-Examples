@@ -1,0 +1,4 @@
+developed by AnnDec 20 201810:56:11function Foo()line: 65
+developed by AnnDec 20 201811:00:11b==0line: 42
+developed by AnnDec 20 201811:00:11function Foo()line: 65
+developed by AnnDec 20 201811:00:11bad array new lengthline: 65
