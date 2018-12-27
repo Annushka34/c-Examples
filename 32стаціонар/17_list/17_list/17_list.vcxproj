@@ -117,6 +117,7 @@
   <ItemGroup>
     <ClCompile Include="01_queue.cpp" />
     <ClCompile Include="02_vector.cpp" />
+    <ClCompile Include="03_list.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
