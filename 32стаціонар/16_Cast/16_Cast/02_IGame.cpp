@@ -2,6 +2,7 @@
 #include<conio.h>
 #include<Windows.h>
 #include<string>
+#include<iostream>
 
 
 using namespace std;;
@@ -40,7 +41,30 @@ public:
 	}
 };
 
+class Lena : public IGame
+{
+public:
+
+	void SetObject(char  ch)
+	{
+		object = ch;
+	}
+	void Run()
+	{
+		int count = 10;
+		SetStartPos(10+count, 20);
+			count++;
+	}
+	void SetStartPos(int x, int y)
+	{
+			gotoXY(x, y);
+			cout << " " << object;
+			Sleep(800);
+	}
+};
+
 void main()
 {
-	IGame * g =  
+	IGame * g = new Lena();
+	g->GameStart();
 }
