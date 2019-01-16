@@ -27,5 +27,13 @@
     <ClCompile Include="04_mapWithClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="05_Alrorythms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="vocabulary.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

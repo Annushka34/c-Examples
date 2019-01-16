@@ -122,6 +122,10 @@
     <ClCompile Include="02_map.cpp" />
     <ClCompile Include="03_multimap.cpp" />
     <ClCompile Include="04_mapWithClass.cpp" />
+    <ClCompile Include="05_Alrorythms.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="vocabulary.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
