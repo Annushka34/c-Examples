@@ -30,6 +30,9 @@
     <ClCompile Include="05_Alrorythms.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="06_Functors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="vocabulary.txt">
