@@ -127,6 +127,7 @@
     <ClCompile Include="04_mapWithClass.cpp" />
     <ClCompile Include="05_Alrorythms.cpp" />
     <ClCompile Include="06_Functors.cpp" />
+    <ClCompile Include="07_Functors.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="vocabulary.txt" />
