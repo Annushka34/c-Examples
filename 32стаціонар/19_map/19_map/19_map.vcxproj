@@ -128,6 +128,12 @@
     <ClCompile Include="05_Alrorythms.cpp" />
     <ClCompile Include="06_Functors.cpp" />
     <ClCompile Include="07_Functors.cpp" />
+    <ClCompile Include="08_LIST_Person.cpp" />
+    <ClCompile Include="091_accumulate.cpp" />
+    <ClCompile Include="093_Initializer.cpp" />
+    <ClCompile Include="094_AlgorytmWithClasses.cpp" />
+    <ClCompile Include="09_Set_Persons.cpp" />
+    <ClCompile Include="092_Greater_less.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="vocabulary.txt" />

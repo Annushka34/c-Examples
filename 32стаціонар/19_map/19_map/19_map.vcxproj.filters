@@ -36,6 +36,24 @@
     <ClCompile Include="07_Functors.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="08_LIST_Person.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="09_Set_Persons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="091_accumulate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="092_Greater_less.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="093_Initializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="094_AlgorytmWithClasses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="vocabulary.txt">
